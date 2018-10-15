@@ -1,5 +1,5 @@
 import os
-from microservice import app
+from micron import app
 
 __author__ = "IBM Cloud Managed Application Services"
 __version__ = "1.0.0"
