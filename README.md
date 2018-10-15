@@ -1,4 +1,4 @@
-# PyMicron
+# PyMicron v0.1
 
 ## Why Microservices?
 
@@ -65,4 +65,5 @@ Transaction Log Tailing.
 Another challenge is implementing queries that need to retrieve data owned by multiple services.
 The API Composition and Command Query Responsibility Segregation (CQRS) patterns can be used to 
 tackle this problem. 
+
 

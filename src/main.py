@@ -1,7 +1,7 @@
 import os
 from micron import app
 
-__author__ = "IBM Cloud Managed Application Services"
+__author__ = "PyMicron"
 __version__ = "1.0.0"
 
 if __name__ == "__main__":
