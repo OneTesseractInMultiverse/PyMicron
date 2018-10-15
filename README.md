@@ -1,3 +1,3 @@
-# VulcanPy is a framework to create modern microservices with Python, Flask and Docker
+# VulcanPy
 
 More details will be added soon...
