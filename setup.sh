@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+BACKUPTIME=`date +%b-%d-%y`
+WORKING_DIR=$(pwd)
+SCRIPTS_DIR=$WORKING_DIR'/scripts'
+MESSAGE='CURRENT SCRIPTS DIRECTORY: '
+MESSAGE+=$SCRIPTS_DIR
+echo $MESSAGE
