@@ -1,7 +1,3 @@
-# Flask-Based Microservice Boilerplate
-
-The current project is a simple boilerplate for Flask-based micro-services. This service can 
-be easily deployed through Docker containers and support Celery background task execution for 
-asynchronouse execution. 
+# VulcanPy is a framework to create modern microservices with Python, Flask and Docker
 
 More details will be added soon...
