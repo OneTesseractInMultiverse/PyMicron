@@ -6,7 +6,7 @@ from flask import (
 from flask_jwt_extended import (
     JWTManager
 )
-from microservice.async import (
+from micron.async import (
     init_async_service
 )
 
@@ -16,7 +16,7 @@ from microservice.async import (
 # ------------------------------------------------------------------------------
 
 __version__ = '1.0.0'
-app = Flask('microservice')
+app = Flask('micron')
 app.logger.info("")
 app.config.from_object('config')
 app.debug = True
@@ -49,5 +49,5 @@ jwt = JWTManager(app)
     settings that must exist prior importing the endpoints
 """
 
-from microservice.service_endpoints import *
+from micron.service_endpoints import *
 

@@ -1,4 +1,4 @@
-from microservice import (
+from micron import (
     app
 )
 from flask import (
@@ -7,7 +7,7 @@ from flask import (
     url_for
 )
 
-from microservice.security.authorization import (
+from micron.security.authorization import (
     require_claims
 )
 from flask_jwt_extended import (
